@@ -4,9 +4,9 @@ Based on [CycleGAN-Tensorflow-2](https://github.com/LynnHo/CycleGAN-Tensorflow-2
 
 Paper: [ABC-GAN: Spatially Constrained
 Counterfactual Generation for Image
-Classification Explanations]()
+Classification Explanations](https://link.springer.com/chapter/10.1007/978-3-031-44064-9_15)
 
-Author: [Dimitry Mindlin](https://github.com/dimitrymindlin) *et al.*
+Author: [Dimitry Mindlin]([https://github.com/dimitrymindlin](https://scholar.google.com/citations?user=ruGNAMAAAAAJ&hl=de&oi=sra)) *et al.*
 
 ## Main Contribution
 
@@ -105,14 +105,17 @@ python -m train \
 - mura_data folder that contains the scripts to preprocess the mura dataset
 
 # Citation
-@inproceedings{mindlin-etal-2023-abc-gan,
-    title = "Unsupervised argument reframing with a counterfactual-based approach",
-    author = "Mindlin, Dimitry  and
-      Schilling, Malte and
-      Cimiano, Philipp",
-    booktitle = "Proceedings of the First World Conference, xAI 2023",
-    year = "2023",
-    address = "Lisbon",
-    publisher = "Springer",
+@InProceedings{10.1007/978-3-031-44064-9_15,
+author="Mindlin, Dimitry
+and Schilling, Malte
+and Cimiano, Philipp",
+editor="Longo, Luca",
+title="ABC-GAN: Spatially Constrained Counterfactual Generation for Image Classification Explanations",
+booktitle="Explainable Artificial Intelligence",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="260--282",
+isbn="978-3-031-44064-9"
 }
 
